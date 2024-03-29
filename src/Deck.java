@@ -2,12 +2,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/*
+ * 
+ * Works but for some reason doesnt work on submission
+ * 
+ * passs all tests in IDE put fails on Zybooks
+ * 
+ */
+
 public class Deck {
 
     private List<Card> cards = new ArrayList<>();
 
     public Deck(){
-        
         ArrayList<Rank> rankArr = new ArrayList<>();
         ArrayList<Suit> suitArr = new ArrayList<>();
 
